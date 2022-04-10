@@ -8,3 +8,5 @@ Random Stuff, just need to them stash somewhere. May contain things pulled off t
 * Inconsolata - Fonts (weird fi ligature fix) 
 	* https://github.com/ryanoasis/nerd-fonts/issues/509#issuecomment-1041264209 
 	*  https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Inconsolata/complete
+* Telegram - 
+	* OLEDless.attheme - android theme oled black. Download the theme, send it in chat and then click it, it should prompt you to install the theme.

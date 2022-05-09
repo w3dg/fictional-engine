@@ -726,19 +726,13 @@
 - Zion
 - Zoar
 
--
-- ```js
+```js
+// on the wikipedia page, https://en.wikipedia.org/wiki/List_of_Intel_codenames, run this JS
 
-  ```
+final = "";
+document.querySelectorAll(".wikitable > tbody > tr ").forEach((td) => {
+  final += "\n" + td.childNodes[1].innerText;
+});
 
-- // on the wikipedia page, https://en.wikipedia.org/wiki/List_of_Intel_codenames, run this JS
-
-- final = "";
-- document.querySelectorAll(".wikitable > tbody > tr ").forEach(td => {
-  - final += "\n" + td.childNodes[1].innerText;
-- })
-
-- console.log(final);
-- ```
-
-  ```
+console.log(final);
+```
